@@ -575,13 +575,15 @@ table {
 	transition-delay: 0.5s;
 }
 
+
 /* ==========================================================================Hero========================================================================== */
 .hero {
-	background: url('../img/header-bg.jpg') right bottom no-repeat;
+	background: url('../img/header/header-bg12.jpg') no-repeat fixed center;
+	height: 1000px;
 	background-size: contain;
 	padding: 110px 0 100px 0;
-	height: auto;
 	background-color: #FBFBFB;
+	background-size: cover;
 }
 
 .hero h1 {
@@ -614,6 +616,7 @@ table {
 	color: #fff;
 	font-size: 15px;
 }
+
 
 /* Boucing Arrow Animation */
 @keyframes arrowbounce {
